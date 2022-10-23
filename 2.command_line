@@ -1,0 +1,28 @@
+Comand line
+Comand line instructions as below are not C. they are comand line instructions for ide interfaces such as in linux.
+Compile and run a program
+make hello
+./hello
+
+rm hello   removes the "hello" binary file
+
+An asteriks after a file name can mean it is executable  EG: hello*
+
+cd = takes you back to your default folder
+cd ..  = go back on step/directory
+cd ../.. = go back two steps/directories
+cd = change directory
+cp = copy
+ls = display list of files
+mkdir = create a directory
+mv = move (or rename)
+rmdir = remove directory
+
+ctrl l = clears the screen 
+clear = does same as above
+
+code mario.c  = creates a file called mario.c
+
+Other notes
+a single dot refers to the current directory you are in 
+.
