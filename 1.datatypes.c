@@ -20,8 +20,8 @@ main (void)
 bool	1 bite
 char	1 bite
 int	4 bites
-float	4 bites
-double	8 bites
+float	4 bites //Real numbers
+double	8 bites // Real numbers
 long 	8 bites
 string ??bites
 //########################
