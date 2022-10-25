@@ -1,3 +1,6 @@
+Contents : make hello ./hello, rm hello, * cd,cd .. cd ../.., , ls, mkdir, mv, rmdir, ctrl l, clear, code mario.c, other notes, 
+vscode specific, (code man.c)
+
 Comand line
 Comand line instructions as below are not C. they are comand line instructions for ide interfaces such as in linux.
 Compile and run a program
@@ -21,8 +24,11 @@ rmdir = remove directory
 ctrl l = clears the screen 
 clear = does same as above
 
-code mario.c  = creates a file called mario.c
-
 Other notes
 a single dot refers to the current directory you are in 
 .
+
+@@@@@@@@@@@@@@@@@@@@@
+VSCODE specific
+code man.c    Creates a file called man.c
+@@@@@@@@@@@@@@@@@@@@@
