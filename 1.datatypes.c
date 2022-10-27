@@ -17,12 +17,12 @@ main (void)
 
 //#########################
 //Qick bite size check per datatype
-bool	1 bite
+bool	1 bite  //if(x > y) is boolean since it can only be either yes or no.
 char	1 bite
-int	4 bites
+int	4 bites  //roughly up to 2 billion (taking into account negative numbers)
 float	4 bites //Real numbers
 double	8 bites // Real numbers
-long 	8 bites
+long 	8 bites //To 4 billion and beyond
 string ??bites
 //########################
 
