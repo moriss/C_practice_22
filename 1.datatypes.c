@@ -1,50 +1,14 @@
-//####################################################################include <cs50.h>
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <math.h>
-//Multiply two number using the 'double' data type
-main (void)
-{
-   double one = 4476.9;
-   double two = 7687.8;
-   double three = one * two;
-   printf("%f",three);
-   
-}  
 
-//#########################
-//Qick bite size check per datatype
-bool	1 bite  //if(x > y) is boolean since it can only be either yes or no.
-char	1 bite
-int	4 bites  //roughly up to 2 billion (taking into account negative numbers)
-float	4 bites //Real numbers
-double	8 bites // Real numbers
-long 	8 bites //To 4 billion and beyond
-string ??bites
-//########################
+bool	1 bite  // EG:if(x > y), is boolean since it can only be either yes or no or true or false
+char	1 bite //  A single character like a or t
+int	4 bites // roughly up to 2 billion (taking into account negative numbers)
+float	4 bites // A floating-point value, or real number with a decimal value
+double	8 bites // A floating-point value roughly double in size of a float.
+long 	8 bites // To 4 billion and beyond
+string  An indeterminate number of bytes since it can be a whole book
+
 
 //Types, formats, operators
-
-//There are other types we can use for our variables
-
-// bool, a Boolean expression of either true or false
-
-// char, a single character like a or t
-
-// float, a floating-point value, or real number with a decimal value
-
-// double, a floating-point value roughly double in size of a float.
-
-// int, integers take up 4 bites
-
-// long, integers with more bits, so they can count higher.
-
-// string, a string of characters
-
-//########################################################
 
 //And the CS50 library has corresponding functions to get input of various types:
 // Its best to declare a variable just when you need it (scope).
@@ -85,8 +49,9 @@ string ??bites
 // %s for strings
 
 // And there are some mathematical operators we can use:
+// == For is eqaul to. AKA the equality operator. A single = is the assignment operator. (copies from right into left)
 // + for addition
 // - for subtraction
 // * for multiplication
-//   / for division
-// % for remainder (modulu)
+// / for division
+// % for remainder (modulu) The remainder when two numbers are divided together.
