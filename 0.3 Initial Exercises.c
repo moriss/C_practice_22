@@ -35,3 +35,18 @@ int main(void)
         printf("%i  is an odd number \n " , n );//Otherwise, print this to the screen.
     }
 }
+
+
+
+//agree
+int main(void)
+{
+    char yes = get_char("Do you agree to the t and c's? ");//Ask user if they agree to t and c's
+    if(yes == 'y' || yes == 'Y')//If lowercase or capital Y typed...
+    {
+        printf("Agreed\n");//Print this
+    }
+    else if(yes == 'n' || yes == 'N' )// If lowercase or capital N typed...
+    {
+        printf("Disagree \n");//Print this
+    }
