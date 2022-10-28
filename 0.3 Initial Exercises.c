@@ -16,29 +16,22 @@ const int N = 3;//By convention, they are capitalised
 //Use when you know you don't ever want the value of N to change
 int main (void)
 {
-  int scores[N]; //Use the constant N throughout your code.
-   scores[0] = 40;
-   scores[1] = 65;
-   scores[2] = 49;
-   scores[3] = 95;
-
-     printf("Average score is: %i \n", (scores[0] + scores[1] + scores[2] + scores[3]) / N);//And here also
+  int x = get_int("What number do you have? ");//Prompt the user for their number
+  printf("Your number divided by N is %i \n", x / N);//Print out the answer to their number divided by N(3).
 }
-
 
 
 
 //Parity: Test if user's number is odd or even.
 int main(void)
 {
-    int n = get_int("Please choose a number ");
-    if(n % 2 == 0)
+    int n = get_int("Please choose a number ");//Ask user for a number
+    if(n % 2 == 0)//If n divided by two has a remainder of 0...
     {
-        printf("%i  is an even number \n " , n );
+        printf("%i  is an even number \n " , n );//Print this to the screen....
     }
     else
     {
-        printf("%i  is an odd number \n " , n );
+        printf("%i  is an odd number \n " , n );//Otherwise, print this to the screen.
     }
-    //if n is even, print "n is even" else print "n is not even.
 }
