@@ -1,4 +1,18 @@
 
+
+
+
+//Syntactic Sugar
+//Ways of expressing incrementation
+int counter +=1;
+same as
+int counter ++;
+same as
+int counter = counter + 1;
+
+
+
+
 //Parity: Test if user's number is odd or even.
 int main(void)
 {
