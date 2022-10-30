@@ -35,11 +35,3 @@ get_int //: 4 bytes of memory or 32 bits, 50% pos numbs, 50% negatives -2 to the
 %li // for longs
 %s // for strings
 
-//operators
-// And there are some mathematical operators we can use:
-// == For is eqaul to. AKA the equality operator. A single = is the assignment operator. (copies from right into left)
-// + for addition
-// - for subtraction
-// * for multiplication
-// / for division
-// % for remainder (modulu) The remainder when two numbers are divided together.
