@@ -1,6 +1,6 @@
 
 bool	1 bite  // EG:if(x > y), is boolean since it can only be either yes or no or true or false
-char	1 bite //  A single character like 'a' or 't'
+char	1 bite //  A single character like 'a' or 't' (Note that single quotes are used for chars).
 int	4 bites // roughly up to 2 billion (taking into account negative numbers)
 float	4 bites // A floating-point value, or real number with a decimal value
 double	8 bites // A floating-point value roughly double in size of a float.
