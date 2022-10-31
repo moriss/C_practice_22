@@ -1,4 +1,4 @@
-//Contents: Syntactic Sugar,  const, Parity,
+//Contents: Syntactic Sugar,  const, Parity, Agree, Meeaow, 
 
 //Syntactic Sugar
 //Ways of expressing incrementation
@@ -50,3 +50,17 @@ int main(void)
     {
         printf("Disagree \n");//Print this
     }
+  
+  
+  
+ 
+  //Print Meeaow 3 times
+int main(void)
+{
+    int a = 0;
+    while(a <= 2)
+    {
+        printf("Meaow\n");
+        a ++;
+    }
+}
