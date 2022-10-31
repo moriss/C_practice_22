@@ -1,3 +1,4 @@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 //Using Boolean: Typeing 'while(1)' is a boolean (true) expression. (0 is false).
 //It can be used in the way below however the code will not print 3 times as initially expected.
 //This is because the incrementing 'a' by 1, resets a as 1 (from zero) so the while condition remains true
@@ -16,3 +17,12 @@ int main(void)
         a ++;
     }
 }
+
+//Below is a correct way to do it and it still uses a boolean expression.
+int a = 0;
+    while(a <= 2)
+    {
+        printf("Meaow\n");
+        a ++;
+    }
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
