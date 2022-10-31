@@ -3,3 +3,5 @@ syntactic sugar : A shorthand way of writing code
 "You cannot compair strings for equality"
 
 i = i + 1    Can be referred to as a line of logic
+
+Convention: Just the way things have and continue to be done. (Generally understood rules)
