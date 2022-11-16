@@ -7,3 +7,5 @@ i = i + 1    Can be referred to as a line of logic
 Convention: Just the way things have and continue to be done. (Generally understood rules)
 
 Scope: Generally speaking, for loops (unlike while loops) keep the variables within its own function and variables within a while loop can be used else where in your code
+
+Visual side effets: Like printing something to the screen. This isn't returning something, it's simply printing the result of something.
