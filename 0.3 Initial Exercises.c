@@ -54,7 +54,7 @@ int main(void)
   
   
  
-  //Print Meeaow 3 times
+  //Print Meeaow 3 times with a while loop
 int main(void)
 {
     int a = 0;
@@ -64,3 +64,16 @@ int main(void)
         a ++;
     }
 }
+  
+  
+
+ //Print meeaow 3 times using a for loop
+int main(void)
+{
+    int a = 2;
+    for(int i = 0 ; i <= a ;  i ++)
+    {
+        printf("Meaow\n");
+    }
+}
+
