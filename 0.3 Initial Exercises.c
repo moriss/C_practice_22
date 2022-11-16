@@ -57,12 +57,13 @@ int main(void)
   //Print Meeaow 3 times with a while loop
 int main(void)
 {
-    int a = 0;
+    int a = 0;//Here, 'a' can be used elsewhere in your code. It's scope is wider than this while loop.
     while(a <= 2)
     {
         printf("Meaow\n");
         a ++;
     }
+        printf("%i ", a);//So a here can be printed fine.
 }
   
   
@@ -70,10 +71,10 @@ int main(void)
  //Print meeaow 3 times using a for loop
 int main(void)
 {
-    int a = 2;
-    for(int i = 0 ; i <= a ;  i ++)
+    for(int i = 0 ; i <= 3 ;  i ++)//'i' cannot be used anywhere else in your code. It's scope is withing the for loop.
     {
         printf("Meaow\n");
     }
+        printf("%i ", i);//This will throw up an error. 'i' is deemed undeclared as it's outside the scope it was used for.
 }
 
