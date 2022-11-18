@@ -38,7 +38,7 @@ int main(void)
 
 
 
-//agree
+//Create a function that asks the user to agree or disagree
 int main(void)
 {
     char yes = get_char("Do you agree to the t and c's? ");//Ask user if they agree to t and c's
