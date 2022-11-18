@@ -1,34 +1,40 @@
 This modifies all relevant code from Initial Exercises to create your own functions, starting with void inputs and void outputs
 
-
 const, Parity, Agree, Meeaow, 
 
-
-//Use const as a global variable or within main.
-const int N = 3;//By convention, they are capitalised
-//Use when you know you don't ever want the value of N to change
-int main (void)
+//Use const within your own function.
+void my(void)
 {
-  int x = get_int("What number do you have? ");//Prompt the user for their number
-  printf("Your number divided by N is %i \n", x / N);//Print out the answer to their number divided by N(3).
+    const int N = 5;
+    int a = 4, z = 9;
+    printf("%i %i \n", a*N , z*N);
 }
 
+
+int main(void)
+{
+    my();
+}
+###
 
 
 //Parity: Test if user's number is odd or even.
-int main(void)
+void my(void)
 {
-    int n = get_int("Please choose a number ");//Ask user for a number
-    if(n % 2 == 0)//If n divided by two has a remainder of 0...
+     int num = get_int("Please choose an even number ");
+    if(num % 2 == 0)
     {
-        printf("%i  is an even number \n " , n );//Print this to the screen....
+        printf("You chose wisely, Your number is even, ie %i \n ", num);
     }
     else
-    {
-        printf("%i  is an odd number \n " , n );//Otherwise, print this to the screen.
-    }
+    printf("Your number is odd, ie %i, Please try again, \n ", num);
 }
 
+int main(void)
+{
+   my();
+}
+###
 
 
 //agree
