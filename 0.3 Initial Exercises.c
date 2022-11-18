@@ -77,4 +77,19 @@ int main(void)
     }
         printf("%i ", i);//This will throw up an error. 'i' is deemed undeclared as it's outside the scope it was used for.
 }
+  
+  
+   //Print meeaow 3 times using your own function
+  void meeawo(void)
+{
+    for(int i = 0; i < 3; i ++)
+    {
+        printf("Meeaow\n");
+    }
+}
+
+int main(void) 
+{
+    meeawo();
+}
 
