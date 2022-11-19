@@ -15,7 +15,7 @@ int main(void)
 {
     my();
 }
-###
+//###
 
 
 //Parity: Test if user's number is odd or even.
@@ -34,7 +34,7 @@ int main(void)
 {
    my();
 }
-###
+//###
 
 
 //Create a function that asks the user to agree or disagree
@@ -57,25 +57,28 @@ int main(void)
 {
     choos();
 }
+//###
 
-STOPPED HERE
   
-  
- 
   //Print Meeaow 3 times with a while loop
+void my(void)
+{
+    int a = 0;
+    while(a < 3)
+    {
+        printf("Meeaow \n");
+        a=a+1;
+    }
+}
+
 int main(void)
 {
-    int a = 0;//Here, 'a' can be used elsewhere in your code. It's scope is wider than this while loop.
-    while(a <= 2)
-    {
-        printf("Meaow\n");
-        a ++;
-    }
-        printf("%i ", a);//So a here can be printed fine.
+    my();
 }
+  //###
   
   
-
+STOPPED HERE
  //Print meeaow 3 times using a for loop
 int main(void)
 {
