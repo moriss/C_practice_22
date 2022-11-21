@@ -76,33 +76,22 @@ int main(void)
     my();
 }
   //###
+  error: expected function body after function declarator. Reason: forgot curly braces right after void my(void)
   
-  
-STOPPED HERE
- //Print meeaow 3 times using a for loop
-int main(void)
-{
-    for(int i = 0 ; i <= 3 ;  i ++)//'i' cannot be used anywhere else in your code. It's scope is withing the for loop.
-    {
-        printf("Meaow\n");
-    }
-        printf("%i ", i);//This will throw up an error. 'i' is deemed undeclared as it's outside the scope it was used for.
-}
-  
-  
-   //Print meeaow 3 times using your own function
-  void meeawo(void)
+//Print meeaow 3 times using a for loop
+
+void my(void)
 {
     for(int i = 0; i < 3; i ++)
     {
-        printf("Meeaow\n");
+        printf("Meeaow \n");
     }
 }
-
-int main(void) 
+int main(void)
 {
-    meeawo();
+    my();
 }
+
 
 
 
