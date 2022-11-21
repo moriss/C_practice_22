@@ -1,84 +1,101 @@
 This modifies all relevant code from Initial Exercises to create your own functions, starting with void inputs and void outputs
 
-const, Parity, Agree, Meeaow, 
+Contents: const, Parity, Agree, Meeaow, 
+
 
 //Use const within your own function.
-void my(void)
-{
-    const int N = 5;
-    int a = 4, z = 9;
-    printf("%i %i \n", a*N , z*N);
-}
-
+int const a = 6;
+void my(void);
 
 int main(void)
 {
     my();
+}
+void my(void)
+{
+
+    int num = get_int("Choos a number");
+    int num2 = get_int("Choos another number");
+
+    int z = a + num;
+    int y = a + num2;
+    printf(" %i \n %i ", z , y);
 }
 //###
 
 
 //Parity: Test if user's number is odd or even.
-void my(void)
-{
-     int num = get_int("Please choose an even number ");
-    if(num % 2 == 0)
-    {
-        printf("You chose wisely, Your number is even, ie %i \n ", num);
-    }
-    else
-    printf("Your number is odd, ie %i, Please try again, \n ", num);
-}
-
-int main(void)
-{
-   my();
-}
-//###
-
-
-//Create a function that asks the user to agree or disagree
-void choos(void)
-{
-    char decide=get_char("Do you agree with whether dogs are good or bad ");
-    {
-        if(decide == 'y' || decide == 'Y')
-        {
-            printf("I am glad you agree! ");
-        }
-        else
-        {
-            printf("What is  wrong with dogs? ");
-        }
-    }
-}
-
-int main(void)
-{
-    choos();
-}
-//###
-
-  
-  //Print Meeaow 3 times with a while loop
-void my(void)
-{
-    int a = 0;
-    while(a < 3)
-    {
-        printf("Meeaow \n");
-        a=a+1;
-    }
-}
+void my(void);
 
 int main(void)
 {
     my();
 }
+void my(void)
+{
+    int num = get_int("Choose a random number ");
+    if(num % 2 == 0)
+    {
+        printf("Your number (%i) is even\n ", num);
+    }
+    else
+    {
+        printf("Your number (%i) is odd\n ", num);
+    }
+}
+//###
+
+
+//Create a function that asks the user to agree or disagree
+void my(void);
+int main(void)
+{
+    my();
+}
+void my(void)
+{
+    char agree = get_char("Do you think trump will win? ");
+    if (agree == 'y' || agree == 'Y')
+    {
+        printf("You are a trump supporter \n");
+    }
+    else
+    {
+        printf("You don#t support trump \n");
+    }
+}
+//###
+
+  
+ //Print Meeaow 3 times with a while loop using your own function
+void my(void);
+
+int main(void)
+{
+    my();
+}
+
+
+void my(void)
+{
+    int a = 0;
+    while (a < 3)
+    {
+        printf("meeaow \n");
+        a ++;
+    }
+}
+
   //###
-  error: expected function body after function declarator. Reason: forgot curly braces right after void my(void)
   
 //Print meeaow 3 times using a for loop
+void my(void);//AKA Top Level Declarer
+
+int main(void)
+{
+    my();
+}
+
 
 void my(void)
 {
@@ -86,10 +103,6 @@ void my(void)
     {
         printf("Meeaow \n");
     }
-}
-int main(void)
-{
-    my();
 }
 
 
