@@ -1,3 +1,6 @@
+//error: expected function body after function declarator. Reason: forgot curly braces right after:
+void my(void){  _
+
 //Ommiting a coma in printf between first string input and second input.
   printf("%i n is greater than 3 \n" , n );
 
