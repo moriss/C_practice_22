@@ -10,8 +10,8 @@ int main(void)
 
 void my(int x)//Show your function as having an integer input
 {
-    for(int i = 0; i < x; i++)
+    for(int i = 0; i < x; i++)//Create a for loop with the condition that i, set to zero increments by one until it is not less than x
     {
-        printf("Meeaow\n");
+        printf("Meeaow\n");//Print this to screen 'number' amount of times. (user's input)
     }
 }
