@@ -1,3 +1,7 @@
+Implicitly and Explicitly
+Ie The prototype at the top of a file explicitly declairs your function further down the file.
+EG void my(int a);
+
 syntactic sugar : A shorthand way of writing code
 
 "You cannot compair strings for equality"
