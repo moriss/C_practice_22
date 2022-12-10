@@ -1,5 +1,5 @@
-#include <cs50.h>
-#include <stdio.h> printf
+#include <cs50.h>//Contains get_int, get_string
+#include <stdio.h> //Contains printf
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
