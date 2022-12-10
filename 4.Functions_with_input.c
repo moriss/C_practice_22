@@ -1,3 +1,21 @@
+//create a function that takes an input
+void my(int x);//Explicitly declare your function
+int main(void)
+{
+    
+    my(9);//Pass an input into your function (in this case its the number 9)
+}
+
+
+void my(int x)//Create your own
+{
+    for(int i = 0; i < x; i ++)
+    {
+        printf("HELLO \n");
+    }
+}
+
+#########
 //Create a function that uses an input from the user
 void my(int x);//Explicitly declare your function
 int main(void)
