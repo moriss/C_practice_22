@@ -1,0 +1,4 @@
+Discounting a percentage from a price
+Price = £30
+discount = 15%
+therefor, discount = price * 0.85
