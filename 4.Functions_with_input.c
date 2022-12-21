@@ -26,7 +26,7 @@ int main(void)
 }
 
 
-void my(int x)//Show your function as having an integer input
+void my(int x)//Your function with an integer input
 {
     for(int i = 0; i < x; i++)//Create a for loop with the condition that i, set to zero increments by one until it is not less than x
     {
