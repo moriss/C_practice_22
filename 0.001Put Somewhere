@@ -1,5 +1,7 @@
 Generaly speaking us 'i' for counters. ei i = 0;
 
 
-i ++
+i ++   shorthand. incrementing positively by one each time.
+
+A Statement:
 Checking the condition then executing what's in the block (of code)  {}
