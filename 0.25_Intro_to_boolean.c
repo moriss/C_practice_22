@@ -10,10 +10,10 @@
 //Print meeaow 3 times
 int main(void)
 {
-    int a = 0;
-    while(1)
+    int a = 0;//At first, a is 0 but in the following loop, a becomes one and then two and then three etc etc forever.
+    while(1)//This tests that 'a' is whatever 'a' is above, depending on which loop its on (first, second third etc) Therefore, always true
     {
-        printf("Meaow\n");
+        printf("Meaow\n");//This will print infinitely
         a ++;
     }
 }
@@ -22,7 +22,7 @@ int main(void)
 int a = 0;
     while(a <= 2)
     {
-        printf("Meaow\n");
-        a ++;
+        printf("Meaow\n");//This printing will stop when a is less or equal to 2
+        a ++;//Increments by 1 each time this function loops.
     }
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
