@@ -3,5 +3,7 @@
 void my(int x)
 {
     for(int i = 0; i < x; i ++)
+        //No Curly Braces Here
         printf("God \n");
+        //No Curly Braces Here
 }
