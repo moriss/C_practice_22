@@ -63,7 +63,7 @@ int main(void)
         printf("Meaow\n");
         a ++;
     }
-        printf("%i ", a);//So a here can be printed fine.
+        printf("%i ", a);//So a here can be printed fine because its scope is beyond the while loop. a = 3 because the inner while loop must finish running (while the condition is true), before the second printf is printed to the screen.
 }
   
   
@@ -71,7 +71,7 @@ int main(void)
  //Print meeaow 3 times using a for loop
 int main(void)
 {
-    for(int i = 0 ; i <= 3 ;  i ++)//'i' cannot be used anywhere else in your code. It's scope is withing the for loop.
+    for(int i = 0 ; i <= 3 ;  i ++)//'i' cannot be used anywhere else in your code. It's scope is within the for loop.
     {
         printf("Meaow\n");
     }
@@ -92,4 +92,4 @@ int main(void)
 {
     meeawo();
 }
-
+//Above is just to show it can be done this way. By convention, main sits at the top with your programm's prototype at the top and the detail down below somewhere.
