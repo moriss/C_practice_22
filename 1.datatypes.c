@@ -18,7 +18,7 @@ get_int //: 4 bytes of memory or 32 bits, 50% pos numbs, 50% negatives -2 to the
 // range= approx negative 2 billion to positive 2 billion
 // unsigned int : Only allows positive numbers thus doubling positive's range to approx 4 billion 
 
- void //, a type but not a data type. For functions that don't return a value eg printf. The Result is not caputered and stored,  just printed on screen 
+ void //, a type but not a data type. For functions that don't return a value eg printf. The Result is not captured and stored,  just printed on screen 
 //as a side event. Therefore, printf is a void function.
 
 // void my(void)  : parameters can also be void. EG: no arguments get passed into main.
