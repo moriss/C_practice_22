@@ -2,7 +2,7 @@ The next logical course after this one is cs50w (CS50’s Web Programming with P
 
 If you have been away from this for a while, it's best to read your way through the files you created here and make sure you understand them before continuing with the course, currenly week one of 2022 course.
 26th Jan 23
-You are up to end of  1.datatypes.c
+You are up to end of  2.command_line
 
 # Cs50x_practice_22
 Practice code for cs50 course 2022
