@@ -4,7 +4,7 @@ Contents: const, Parity, Agree, Meeaow,
 
 
 //Use const within your own function.
-int const a = 6;
+int const A = 6;
 void my(void);
 
 int main(void)
@@ -14,11 +14,11 @@ int main(void)
 void my(void)
 {
 
-    int num = get_int("Choos a number");
-    int num2 = get_int("Choos another number");
+    int num = get_int("Choose a number");
+    int num2 = get_int("Choose another number");
 
-    int z = a + num;
-    int y = a + num2;
+    int z = A + num;
+    int y = A + num2;
     printf(" %i \n %i ", z , y);
 }
 //###
@@ -61,7 +61,7 @@ void my(void)
     }
     else
     {
-        printf("You don#t support trump \n");
+        printf("You don't support trump \n");
     }
 }
 //###
@@ -83,6 +83,7 @@ void my(void)
     {
         printf("meeaow \n");
         a ++;
+        //
     }
 }
 
@@ -104,7 +105,3 @@ void my(void)
         printf("Meeaow \n");
     }
 }
-
-
-
-
