@@ -1,4 +1,25 @@
 //create a function that takes an input
+
+//Q: What is the simplest way to pass a value from main into your own function?
+void my(int x);
+int main(void)
+{
+    
+    my(99);//Pass an input into your function (in this case its the number 99)
+}
+
+
+void my(int x )//declare the datatype that is to be inputed into your function
+{
+        printf("%i \n", x);//print it out as a char
+        printf("%c \n", x);//or print a char representted by the number 99 which is the lowercase 'c'.
+}
+##
+
+
+
+
+
 void my(int x);//Explicitly declare your function
 int main(void)
 {
@@ -7,7 +28,7 @@ int main(void)
 }
 
 
-void my(int x)//Create your own
+void my(int x)//declare the datatype that is to be inputed into your function
 {
     for(int i = 0; i < x; i ++)
     {
