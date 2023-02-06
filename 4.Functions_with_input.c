@@ -1,7 +1,7 @@
 //create a function that takes an input
 
 //Q: What is the simplest way to pass a value from main into your own function?
-void my(int x);
+void my(int x);//Explicitly declare your function
 int main(void)
 {
     
