@@ -1,4 +1,10 @@
 ###############
+
+//LOGICAL ERROR, NOTHING PRINTS OUT (A BLANK SPACE) WITHOUT ANY ERRORS.
+ //   This is a dumb one. I forgot to call my function in main. 
+so, my(float x, float y;) was missing in main!
+    
+    
 // error: implicit declaration of function 'my' is invalid in C99 
 //I did not firstly explicitly declare the function: void my(void);
 //It should be explicitly declared here  (above 'main') :
