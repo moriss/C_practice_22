@@ -54,3 +54,47 @@ void my(int x)//Your function with an integer input
         printf("Meeaow\n");//Print this to screen 'number' amount of times. (user's input)
     }
 }
+
+//from basic to 'deeply embeded' functions with input
+//Firstly, everything in main
+int main(void)
+{
+    float price = get_float("What is the original price?");//ask user for a price
+    float discount = price * .85;//Discount by 15%
+    printf("%2.f  is your discounted price \n ", discount);//Print new discounted price
+    return discount;//Return new discounted price
+}
+
+
+//Secondly with your own function
+float my(float user_input);//Your Function's Prototype on top
+int main(void)
+{
+    float price = get_float("What is the original price? ");//ask user for a price
+    my(price);//Drop 'price' into your function
+}
+
+float my(float user_input)//Your function takes one float input
+{
+    float discount = user_input * .85;//Discount by 15%//Multiply price by desired discount
+    printf("%2.f  is your discounted price \n ", discount);//Print new discounted price
+    return discount;//Return new discounted price
+}
+
+
+//STOPPED HERE
+//Below is correct, but change it so that the discount (as a percentage) is minused from the original price
+float my(float user_input ,float user_discount);//Your Function's Prototype on top
+int main(void)
+{
+    float price = get_float("What is the original price? ");//ask user for a price
+    float offer = get_float("What percentage discount would you like? ");//ask user for desired discount
+    my(price, offer);//Drop 'price' and 'offer' into your function
+}
+
+float my(float user_input ,float user_discount)//Your function takes one float input
+{
+    float discount = (user_input / 100) * user_discount;//Discount by 15%//Multiply price by desired discount
+    printf("%2.f  is your discounted price \n ", discount);//Print new discounted price
+    return discount;//Return new discounted price
+}
