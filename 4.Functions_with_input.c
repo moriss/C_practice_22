@@ -11,7 +11,7 @@ int main(void)
 
 void my(int x )//declare the datatype that is to be inputed into your function
 {
-        printf("%i \n", x);//print it out as a char
+        printf("%i \n", x);//print it out as a int
         printf("%c \n", x);//or print a char representted by the number 99 which is the lowercase 'c'.
 }
 ##
@@ -55,7 +55,7 @@ void my(int x)//Your function with an integer input
     }
 }
 
-//from basic to 'deeply embeded' functions with input
+//functions with input and output
 //Firstly, everything in main
 int main(void)
 {
