@@ -98,3 +98,24 @@ float my(float user_input ,float user_discount)//Your function takes one float i
     printf("%2.f  is your discounted price \n ", discount);//Print new discounted price
     return discount;//Return new discounted price
 }
+
+
+
+//Below returns a value from your function and passes it into main.
+int main(void)
+{
+    //Allow someine to choose their own discount for a product on sale.
+    //how much is the product?
+    int original_price = get_int("How much is the product? :");
+    //What discount do you want as a percentage
+        float percent_discount = get_float("What percentage discount would you like? :");
+    //print: This is your new disounted price.
+    float a = my(original_price, percent_discount);
+        printf("Your new discounted price is: %2.f  \n", a );
+}
+
+float my(float x, int y)
+{
+    return x * (100 - y) / 100;//I wrote this out at the back of my filofax for quick reference.
+    //return:
+}
