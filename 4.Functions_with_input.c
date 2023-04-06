@@ -119,3 +119,22 @@ float my(float x, int y)
     return x * (100 - y) / 100;//I wrote this out at the back of my filofax for quick reference.
     //return:
 }
+
+
+################
+int main(void)//Ask user for number of Q's they would like printed onto the screen
+//Then print that number onto the screen.
+{
+    int qs = get_int("How many q's would you like: ");//Ask user for input
+    my(user);//Run your program here with above as your input
+}
+void my(int userp)//Your function has one integer input. 
+{
+    int counter = 1;//Initially set your incrementing counter to 1
+    do
+    {
+        printf("Q \n");// 'do' will print Q first before testing below.
+        counter ++;// Increment counter by 1 at each loop
+    }
+    while(counter <= userp);// Test counter is less than or equal to user input
+}
