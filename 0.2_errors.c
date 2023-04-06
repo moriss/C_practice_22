@@ -1,3 +1,21 @@
+//6th april 23
+int main(void)
+{
+    int x = 0;//Set 'x' to zero
+    do {
+            printf("Q ");//print this then...
+            //x ++ should be here.
+        }
+    while (x <= 2);//keep printing while 'x' is less than or equal to 2
+    x ++;// Placing the incrementing int here, causes the program to run forever. 
+ //I think this is because 'x' gets reset to zero (above) each time it loops.
+    //It needs to be within the confines of the 'do' in this do while loop.
+    //So the while condition keeps testing the 'do' part but in this case, the 'do' part is not incrementing 'a'.
+}
+
+
+
+
 ###############
 
 //LOGICAL ERROR, NOTHING PRINTS OUT (A BLANK SPACE) WITHOUT ANY ERRORS.
