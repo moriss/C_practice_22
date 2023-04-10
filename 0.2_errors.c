@@ -1,3 +1,9 @@
+//10th April 23
+ second.c  -lcrypt -lcs50 -lm -o second
+second.c:21:1: error: expected identifier or '('
+//Above happened when the closing curly brace of your function was wrongly positioned BEFORE the end of the actual function.
+
+
 //6th april 23
 int main(void)
 {
