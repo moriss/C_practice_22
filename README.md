@@ -1,10 +1,11 @@
-The next logical course after this one is cs50w (CS50’s Web Programming with Python and JavaScript)
+You are working on # Cs50x_practice_22
+NB: The next logical course after this one is cs50w (CS50’s Web Programming with Python and JavaScript)
 
-If you have been away from this for a while, it's best to read your way through the files you created here and make sure you understand them before continuing with the course, currenly week one of 2022 course.
+My Update on 11th April 2023
+I have added a '0.12_the_Guide' file to help me focus as I work through the course. I think I previously created too many short files so I've decided to migrate content from these short files over to this new file. I can also reference larger files here where necessary. 
 
-26th Jan 23
+If you have been away from this for a while, it's best to read through the '0.12_the_Guide'  you created here and make sure you understand the content before continuing with the next part of the course. The 0.12_the_Guide file will show a list of contents at the top for quick reference and also where in the course you are at. 
 
-You are up to end of  3 ConvertToFunctions_1
 
 
 # Cs50x_practice_22
