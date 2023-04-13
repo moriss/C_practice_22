@@ -1,5 +1,4 @@
-This is known as a prototype which contains a menu of available functions, when added to the top of your file.
-#include <cs50.h> 
+
 
 Modularising our code
 He said this when he created his own function. 
