@@ -4,7 +4,7 @@
 //Ways of expressing incrementation
 int counter +=1;
 same as
-int counter ++;
+int counter ++; 
 same as
 int counter = counter + 1;
 
