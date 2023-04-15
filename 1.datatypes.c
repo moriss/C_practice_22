@@ -33,5 +33,5 @@ get_int //: 4 bytes of memory or 32 bits, 50% pos numbs, 50% negatives -2 to the
 %f //for floats, doubles  NB %.2f Returns 2 decimal places
 %i // for ints
 %li // for longs
-%s // for strings
+%s // for strings 
 
