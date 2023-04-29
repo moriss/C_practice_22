@@ -1,7 +1,7 @@
 //Contents
 //Some Terms , Anomalies , Const , Parity ,  User input 1  ,  While loop 1  ,  For loop one  ,  Own Function one
 
-// Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  
+// Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  true and break , 
 
 
 
@@ -202,6 +202,16 @@ get_int //: 4 bytes of memory or 32 bits, 50% pos numbs, 50% negatives -2 to the
 %li // for longs
 %s // for strings
     
+
     
     
-    
+//true and break
+    int ask;
+    while (true)//While below is true... NB; THE 'TRUE' VALUE CAN ALSO BE THE NUMBER 1  eg: while (1)
+    {
+        ask = get_int("How large do you want the block to be? :");
+        if (ask > 0)
+        {
+            break;//...then break out of this loop
+        }
+    }
