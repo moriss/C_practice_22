@@ -1,8 +1,9 @@
 //Contents
-//Some Terms , Anomalies , Const , Parity ,  User input 1  ,  While loop 1  ,  For loop one  ,  Own Function one
+#######
+//Some Terms , Anomalies , Const , Parity ,  User input 1  ,  While loop 1  ,  For loop one  ,  Own Function one  ,  Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  true and break ,  integer overlfow  ,  Truncation  , Casting  , round function  ,  
 
-// Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  true and break , 
-
+// end of week 1
+#######
 
 
 
@@ -215,3 +216,52 @@ get_int //: 4 bytes of memory or 32 bits, 50% pos numbs, 50% negatives -2 to the
             break;//...then break out of this loop
         }
     }
+    
+    
+//Integer overflow
+//Happens when more numbers are explicitly declared than bytes asigned to it.
+// AKA floating point imprecission
+    int main(void)
+{
+   float a = get_int("Number 1: ");
+   float z = get_int("Number 2: ");
+   printf("=%.50f \n " , a / z);
+}
+
+//Returns =0.10000000149011611938476562500000000000000000000000 
+    
+// Interestingly, this became a worry at the turn of the century (year 2000), as many computers stored the year with only two bits to save on memory (99 instead of 1999). This problem was solved, however, 2038 could be the next problem. This is because computers count time in seconds from the Unix epoc being arbitraraly january 1st 1970. Most computers use 32 bits to count the number of seconds from this date which means a maximum of roughtly 2 billion seconds which is going to happen in 2038. The result being that you end up with a very large negative number since the leftmost number signals negativity if it is set to 1. The answer of course is to increase the number of bits from 32 to 64.
+
+    
+    
+// Truncation
+//Where two intergers are being divided and the answer is 0.something then c will return just all zeros. So when dividing two integers, c will only be able to provide you with an integer as an answer. ie 0. This is known as truncation.
+    // The solution to this is 'type conversion'. We can tell the computer we want to treat the integer as though it's a floating point number value. This can be down by 'casting'
+    
+    
+// Casting
+int main(void)
+{
+   int a = get_int("Number 1: ");
+   int z = get_int("Number 2: ");
+   float j = (float) a / (int) z;
+   printf("=%.50f \n " , j);
+}
+//Interestingly, only one of the integers need to be casted as a float. (a).
+    
+    
+    
+// round function
+// This helps with better precision
+    #include <math.h>
+int main(void)
+{
+   float dollar = get_int("Dollar ammount:  ");
+   int pennies = round(dollar * 100);
+
+   printf(" %i \n " , pennies);
+}
+// Where 4.20 dollars was typed by the user without the 'round' function, the answer would be 419 pennies instead of 420 as it should be.
+    
+    
+// End of week 1
