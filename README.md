@@ -1,3 +1,10 @@
+Repo Contents
+###
+introducion, errors, command_line, ConvertToFunctions_1 , Const_intro, Functions_with_input , validating_user_input , Block_of hashes , convert_to_functions  , 
+###
+
+
+
 You are working on # Cs50x_practice_22
 NB: The next logical course after this one is cs50w (CS50’s Web Programming with Python and JavaScript)
 
