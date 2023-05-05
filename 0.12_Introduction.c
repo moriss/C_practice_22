@@ -27,7 +27,8 @@
 
 //Visual side effets: Like printing something to the screen. This isn't returning something, it's simply printing the result of something.
 
-
+//In week 2
+//Excecutable just means runnable.  'make' runs clang . Do this in order to run clang manualy: clang hello.c   This creates a file called a.out (with 'make', typicale a file named 'hello' would be created. In the case of clang, it defaults to a.out. It stands for assembler output.
 
 
 
