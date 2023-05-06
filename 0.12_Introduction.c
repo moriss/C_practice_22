@@ -1,6 +1,6 @@
 //Contents
 #######
-//Some Terms , Anomalies , Const , Parity ,  User input 1  ,  While loop 1  ,  For loop one  ,  Own Function one  ,  Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  true and break ,  integer overlfow  ,  Truncation  , Casting  , round function  ,  
+//Some Terms ,  clang  ,  Anomalies , Const , Parity ,  User input 1  ,  While loop 1  ,  For loop one  ,  Own Function one  ,  Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  true and break ,  integer overlfow  ,  Truncation  , Casting  , round function  ,  
 
 // end of week 1
 #######
@@ -27,9 +27,21 @@
 
 //Visual side effets: Like printing something to the screen. This isn't returning something, it's simply printing the result of something.
 
-//In week 2
-//Excecutable just means runnable.  'make' runs clang . Do this in order to run clang manualy: clang hello.c   This creates a file called a.out (with 'make', typicale a file named 'hello' would be created. In the case of clang, it defaults to a.out. It stands for assembler output.
 
+
+
+//clang
+//In week 2
+//Excecutable just means runnable.  'make' runs clang . Do the following to run clang manualy: 
+clang hello.c  //hello.c is just the name I gave to the file in this illusttration.
+// clang then creates a 'binary' file called a.out.  By default It stands for assembler output.
+// make allows us to customise a.out to the name of our file. so  make hello  creates hello instead of a.out
+// We can also do this with clang via a comand line argument which clang supports:
+clang -o hello hello.c  //This lets you explicitly specify what you want your filename to be called. 
+//If you now view a list of files in your directory, you will see  hello.c, so you can ./hello.c to run it.
+
+    
+    
 
 
 
