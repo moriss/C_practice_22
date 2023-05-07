@@ -39,6 +39,28 @@ clang hello.c  //hello.c is just the name I gave to the file in this illusttrati
 // We can also do this with clang via a comand line argument which clang supports:
 clang -o hello hello.c  //This lets you explicitly specify what you want your filename to be called. 
 //If you now view a list of files in your directory, you will see  hello.c, so you can ./hello.c to run it.
+  
+/**Understanding the extra step required in clang.
+undefined reference to get string 
+This is where you use clang to run your function 
+
+The thing to think about here is that this is as if get_string is not recognised by clang. ie It doesn't exist or mean anything.
+This means that make is doing something else for us that clang is not. make effectively gives the compiler a heads-up that the libraries that hold these functions exist.
+
+by having the #include headers at the top of the file teaches the compiler that a functions will exist when needed.
+
+So with clang, we need to tell the compiler to link-in code (that someone else wrote some time ago) in these libraries. make does this automatically but clang requires another step.
+Steps:
+Output a file called hello
+clang -o hello 
+Compile a file called hello.c
+hello.c
+Link-in the binary code (created by someone else) for get_string and printf etc.
+-lcs50
+
+Of course you need to write this as one line of code: clang -o hello hello.c -lcs50  **/
+                    
+
 
     
     
