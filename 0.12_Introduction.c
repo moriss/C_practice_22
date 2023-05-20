@@ -27,22 +27,31 @@
 
 //Visual side effets: Like printing something to the screen. This isn't returning something, it's simply printing the result of something.
 
+//Excecutable just means runnable.  
+
+//Typed at the prompt is where you type something in the terminal window. It's at the blinking cursor in the terminal window.
+//Whatever you type after 'make' is a comand line argument. It is an input to the program 'make'.
+
+//This is another example where the input to the rm program is a.out
+rm a.out
+//This then removes the a.out file.
+
 
 
 
 //clang
 //In week 2
-//Excecutable just means runnable.  'make' runs clang . Do the following to run clang manualy: 
+//The program 'make' runs clang . Do the following to run clang manualy: 
 clang hello.c  //hello.c is just the name I gave to the file in this illusttration.
 // clang then creates a 'binary' file called a.out.  By default It stands for assembler output.
 // make allows us to customise a.out to the name of our file. so  make hello  creates hello instead of a.out
 // We can also do this with clang via a comand line argument which clang supports:
 clang -o hello hello.c  //This lets you explicitly specify what you want your filename to be called. 
-//If you now view a list of files in your directory, you will see  hello.c, so you can ./hello.c to run it.
+//If you now view a list of files in your directory, you will see  hello*, so you can ./hello.c to run it.
   
-/**Understanding the extra step required in clang.
-undefined reference to get string 
-This is where you use clang to run your function 
+/**Understanding the extra step required in clang when using functions written by others.
+'undefined reference to get string '
+This is and error when you use clang to run your function. 
 
 The thing to think about here is that this is as if get_string is not recognised by clang. ie It doesn't exist or mean anything.
 This means that make is doing something else for us that clang is not. make effectively gives the compiler a heads-up that the libraries that hold these functions exist.
@@ -59,6 +68,8 @@ Link-in the binary code (created by someone else) for get_string and printf etc.
 -lcs50
 
 Of course you need to write this as one line of code: clang -o hello hello.c -lcs50  **/
+
+//Note that this is not the case with <stdio.h>. This is 'built-into' the c programming language unlike the cs50 library so you don't need to manually link it as you do with lcs50. Having said that, many other 'built-in' libraries are not enabled in this way. This is the case for memory efficency reasons. 
                     
 
 
