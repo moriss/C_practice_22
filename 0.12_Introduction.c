@@ -1,8 +1,27 @@
 //Contents
 #######
-//Some Terms ,  clang  ,  Anomalies , Const , Parity ,  User input 1  ,  While loop 1  ,  For loop one  ,  Own Function one  ,  Include Headers.c  ,   operators ,  Datatypes  ,  Formats for datatypes  ,   Placeholders  ,  true and break ,  integer overlfow  ,  Truncation  , Casting  , round function  ,  
+/**
+Some Terms
+clang
+Anomalies
+Const 
+Parity 
+User input 1  
+While loop 1 
+For loop one 
+Own Function one 
+Include Headers.c  
+operators 
+Datatypes 
+Formats for datatypes  
+Placeholders  
+true and break 
+integer overlfow 
+Truncation 
+Casting 
+round function  
+**/
 
-// end of week 1
 #######
 
 
@@ -51,7 +70,7 @@ clang -o hello hello.c  //This lets you explicitly specify what you want your fi
   
 /**Understanding the extra step required in clang when using functions written by others.
 'undefined reference to get string '
-This is and error when you use clang to run your function. 
+This is an error when you use clang to run your function. 
 
 The thing to think about here is that this is as if get_string is not recognised by clang. ie It doesn't exist or mean anything.
 This means that make is doing something else for us that clang is not. make effectively gives the compiler a heads-up that the libraries that hold these functions exist.
@@ -69,9 +88,11 @@ Link-in the binary code (created by someone else) for get_string and printf etc.
 
 Of course you need to write this as one line of code: clang -o hello hello.c -lcs50  **/
 
-//Note that this is not the case with <stdio.h>. This is 'built-into' the c programming language unlike the cs50 library so you don't need to manually link it as you do with lcs50. Having said that, many other 'built-in' libraries are not enabled in this way. This is the case for memory efficency reasons. 
+//Note that this is not the case with <stdio.h>. This is 'built-into' the c programming language unlike the cs50 library so you don't need to manually link it as you do with lcs50. Having said that, many other 'built-in' libraries are not enabled in this way. This is for memory efficency reasons. 
                     
+//Steps in clang
 
+//Preprossessor:  #<stdio.h> is a pre-prossessor directive. It looks for any #<include>'s at top of file.
 
     
     
