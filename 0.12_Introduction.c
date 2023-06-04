@@ -91,8 +91,20 @@ Of course you need to write this as one line of code: clang -o hello hello.c -lc
 //Note that this is not the case with <stdio.h>. This is 'built-into' the c programming language unlike the cs50 library so you don't need to manually link it as you do with lcs50. Having said that, many other 'built-in' libraries are not enabled in this way. This is for memory efficency reasons. 
                     
 //Steps in clang
+//1. Preprossessor:  #<stdio.h> is a pre-prossessor directive. It looks for any #<include>'s at top of file such as:
+#include <stdio.h>, #include <cs50.h> or #include <math.h> etc so it has access to these libraries giving you all the prototypes you need automatically.
 
-//Preprossessor:  #<stdio.h> is a pre-prossessor directive. It looks for any #<include>'s at top of file.
+//2. Compile: It converts/outputs your code into/as Assembly language. (next level up from machine code). This is where the Assembly instructions are laid out, such as multiply, divide, add, subtract, move into memory, load from memory, print to screen.
+//(Each type of CPU has its own instruction set, ie different types/flavours of assembly language although nowadays they can be written to support other operating systems).
+
+//3.Assembling: Now the code ['from 3 different people'] gets turned into zeros and ones/binary at this assembly stage. so:
+//a) hello.c : The code I wrote is now assembled into binary.
+//b) cs50.c  : The code from cs50.c is now assembled into binary. (cs50.h contain the prototypes and cs50.c contain the actual code).[This is for get_string etc]
+//c) stdio.c ; The code from stdio.c is now assembled into binary.(A wee white lie here since stdio.c is so big, we are just using the name as an umbrella). (Again, cs50.h contain the prototypes and cs50.c contain the actual code). This is for printf.
+
+//4. Linking : This stage links/stiches the 3 binary files together into one single file called 'hello' (or whatever else you named your file [but without the .c]
+
+
 
     
     
