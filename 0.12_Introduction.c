@@ -20,6 +20,7 @@ integer overlfow
 Truncation 
 Casting 
 round function  
+debugging
 **/
 
 #######
@@ -343,4 +344,20 @@ int main(void)
 // Where 4.20 dollars was typed by the user without the 'round' function, the answer would be 419 pennies instead of 420 as it should be.
     
     
-// End of week 1
+// debugging
+//Use printf to look inside your code
+//Example
+
+for (int i = 0; i =>3; i ++)
+{
+	printf("i is %1 \n" , i);
+	printf("#");
+}
+
+/**Using debug50
+~/psetnew/ $ debug50 ./second
+You then place breakpoints to the left of the code you wish to analise. It creates a step by step walk through of what your code is doing.
+Your options are play, step over, step into, step out of. 'Step into' seems best as it allows you to go to the line in question and predict what should happen before then having to click 'step into' again to actually see what the code does.
+
+The final approach to debugging is the rubber duck. Talk through your code to it, or in my case, just go away and do something else for a bit so your brain can work on it and come up with possible solutions. **/
+
