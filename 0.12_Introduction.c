@@ -345,7 +345,8 @@ int main(void)
     
     
 // debugging
-//Use printf to look inside your code
+	//3 options:
+//1: Use printf to look inside your code
 //Example
 
 for (int i = 0; i =>3; i ++)
@@ -353,11 +354,18 @@ for (int i = 0; i =>3; i ++)
 	printf("i is %1 \n" , i);
 	printf("#");
 }
-
-/**Using debug50
+// debugging
+/**2: Using debug50
 ~/psetnew/ $ debug50 ./second
 You then place breakpoints to the left of the code you wish to analise. It creates a step by step walk through of what your code is doing.
-Your options are play, step over, step into, step out of. 'Step into' seems best as it allows you to go to the line in question and predict what should happen before then having to click 'step into' again to actually see what the code does.
+Your options are play, step over, step into, step out of. Step over is the one to use however, use 'Step into' if you have deeper code inside other functions that you want to analise. 
 
 The final approach to debugging is the rubber duck. Talk through your code to it, or in my case, just go away and do something else for a bit so your brain can work on it and come up with possible solutions. **/
+	
+// 3: Talk to the rubber duck!
+	
+
+
+	
+//Types
 
