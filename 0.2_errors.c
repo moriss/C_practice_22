@@ -1,3 +1,9 @@
+//12th June 23
+//In this error:
+// error: format specifies type 'double' but the argument has type 'int'
+//Where you have perhaps used a double (%f) as a placeholder to print a sum using integers, you only need change one of the integers to say 3.0 (from 3) to allow C to infer you are working with double (or floating point numbers). It's a kind of hack!
+ 
+
 //10th April 23
  second.c  -lcrypt -lcs50 -lm -o second
 second.c:21:1: error: expected identifier or '('
