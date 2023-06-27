@@ -28,6 +28,8 @@ debugging
 
 
 //Some Terms
+
+//zero indexing: To start counting from zero.
 //Modularising our code
 //He said this when he created his own function. 
 
