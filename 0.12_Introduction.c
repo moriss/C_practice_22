@@ -21,6 +21,7 @@ Truncation
 Casting 
 round function  
 debugging
+arrays
 **/
 
 #######
@@ -371,3 +372,5 @@ The final approach to debugging is the rubber duck. Talk through your code to it
 	
 //Types
 
+// arrays
+go to arrays_1.c
