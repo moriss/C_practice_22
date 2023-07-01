@@ -1,4 +1,4 @@
-//A gentle introduction to arrays. Arrays are very useful as the element the need to have multiple variable names.
+//A gentle introduction to arrays. Arrays are very useful as they eliminate the need to have multiple variable names. Instead you have one variable with a whole list of elements.
 The index of an array is whatever is in the square brackets. 
 //Displaying the memory locations of an array's elements.
 int main(void)
@@ -24,8 +24,8 @@ int main(void)
       int assignments[n];
       for(int i = 0; i < n; i ++)
       {
-           assignments[i] = i + 1 ;
-           printf("%i \n" , assignments[i]);
+           assignments[i] = i + 1 ;//Here you are assigning the for loop's i'ths to the array's element's memory locations
+           printf("%i \n" , assignments[i]);//So in this case, numbers 1 2 3 4 etc will be assigned to these memory locations (above).
       }
 }
 
@@ -39,28 +39,29 @@ int main(void)
       int assignments[n];
       for(int i = 0; i < n; i ++)
       {
-           assignments[i] = get_int("Score   %i = " ,  i + 1) ;
-           adder = adder + assignments[i];
+           assignments[i] = get_int("Score   %i = " ,  i + 1) ;//Assigning user input to each element in the array in order.
+           adder = adder + assignments[i];//adder is used to add the values together.
       }
-      printf("Average score is %i " , adder / 3);
+      printf("Average score is %i " , adder / 3);//We now print the average of these scores.
 }
 
 
 
-//Spell out your name one letter at a time in an array
+//Spell out your name one letter at a time in an array. My experiment!
 int main(void)
 {
       int n = get_int("How many letters in your name ?");
-      char  name[n];
+      char  name[n];//A char with arrays!
       for (int i = 0; i < n; i ++)
       {
-          name[i] = get_char("Letter %i " , i + 1);
+          name[i] = get_char("Letter %i " , i + 1);//User inputs a letter at each incriment.
 
       }
 }
-//IT seems that the char or char* datatypes can also be arrays (as above)
-//Please note that if you tupe more than one character when using the string or char * datatype, you will keep being prompted
-//until you provide a character (rather than a string or word)
+//So it seems that the char or char* datatypes can also be arrays (as above)
+//Please note that if you type more than one character when using the string or char * datatype, you will keep being prompted until you provide a character (rather than a string or word)
+
+
 
 
 
