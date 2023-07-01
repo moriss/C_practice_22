@@ -1,5 +1,5 @@
 //A gentle introduction to arrays.
-//Arrays and for loops
+//Displaying the memory locations of an array's elements.
 int main(void)
 {
       int n = get_int("Number of Assignments? ");
@@ -14,6 +14,20 @@ int main(void)
       As you loop through each i in the for loop, this same i points to the corresponding element in the array. 
       The contents of each memory location is just garbage leftover data. **/
 }
+
+
+//Assigning incrimenting digits to the 'assignments' array elements.
+int main(void)
+{
+      int n = get_int("Number of Assignments? ");
+      int assignments[n];
+      for(int i = 0; i < n; i ++)
+      {
+           assignments[i] = i + 1 ;
+           printf("%i \n" , assignments[i]);
+      }
+}
+
 
 
 //Very basic use of an array to print out 3 hard coded integers to be averaged.
