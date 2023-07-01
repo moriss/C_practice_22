@@ -47,6 +47,23 @@ int main(void)
 
 
 
+//Spell out your name one letter at a time in an array
+int main(void)
+{
+      int n = get_int("How many letters in your name ?");
+      char  name[n];
+      for (int i = 0; i < n; i ++)
+      {
+          name[i] = get_char("Letter %i " , i + 1);
+
+      }
+}
+//IT seems that the char or char* datatypes can also be arrays (as above)
+//Please note that if you tupe more than one character when using the string or char * datatype, you will keep being prompted
+//until you provide a character (rather than a string or word)
+
+
+
 
 //Very basic use of an array to print out 3 hard coded integers to be averaged.
 int main(void)
