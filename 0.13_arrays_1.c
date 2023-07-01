@@ -1,4 +1,4 @@
-//A gentle introduction to arrays.
+//A gentle introduction to arrays. Arrays are very useful as the element the need to have multiple variable names.
 //Displaying the memory locations of an array's elements.
 int main(void)
 {
@@ -27,6 +27,23 @@ int main(void)
            printf("%i \n" , assignments[i]);
       }
 }
+
+
+
+//Assigning user's values to an arrays elements
+int main(void)
+{
+      int adder = 0;
+      int n = get_int("Number of Assignments? ");
+      int assignments[n];
+      for(int i = 0; i < n; i ++)
+      {
+           assignments[i] = get_int("Score   %i = " ,  i + 1) ;
+           adder = adder + assignments[i];
+      }
+      printf("Average score is %i " , adder / 3);
+}
+
 
 
 
