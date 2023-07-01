@@ -376,6 +376,7 @@ The final approach to debugging is the rubber duck. Talk through your code to it
 
 bool	1 bite  //true or false
 char	1 bite  //single character
+short   Typically 2 bytes. //This is for smaller numbers
 int	4 bites
 float	4 bites  //real number with a decimal value
 double	8 bites  //roughly double in size of a float
