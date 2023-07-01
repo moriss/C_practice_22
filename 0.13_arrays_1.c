@@ -1,4 +1,5 @@
 //A gentle introduction to arrays. Arrays are very useful as the element the need to have multiple variable names.
+The index of an array is whatever is in the square brackets. 
 //Displaying the memory locations of an array's elements.
 int main(void)
 {
