@@ -3,17 +3,17 @@ The index of an array is whatever is in the square brackets.
 //Displaying the memory locations of an array's elements.
 int main(void)
 {
-      int n = get_int("Number of Assignments? ");
-      int assignments[n];
-      for(int i = 0; i < n; i ++)
+      int n = get_int("Number of Assignments? ");//Here we are asking the user for a number and assigning it a variable n.
+      int assignments[n];//Variable n is placed in the assignments array giving the array the size of n.
+      for(int i = 0; i < n; i ++)//The for loop condition to be less than n and increment by one at each itiration.
       {
             printf("%i ", assignments[i]);//This prints out garbage data! Explanation below
       }
-      /**The i in the assignments array represents the location of each element in the array depending on where you are in the for loop.
+      /**The i in the assignments array represents the location of each element in the array depending on where you are in the for loop. 
       In other words, the i in the for loop matches the indexed postion of the array's elements. 
       So the first i in the for loop points to the first element in the array and so on. 
       As you loop through each i in the for loop, this same i points to the corresponding element in the array. 
-      The contents of each memory location is just garbage leftover data. **/
+      The contents of each memory location is just garbage leftover data so it doesn't mean anything. **/
 }
 
 
