@@ -22,7 +22,8 @@ Casting
 round function  
 debugging
 data types
-arrays
+arrays 
+Casting
 **/
 
 #######
@@ -429,3 +430,22 @@ string  nth bites //a string of characters
 
 // arrays
 go to arrays_1.c
+
+
+	
+
+//Casting
+//Casting a char as an integer
+int main(void)
+{
+      char letter = get_char("Letter please ");//Get a letter from the user
+      printf("The ascci integer representation of %c is %i\n" , letter , (int)letter );
+	//Explicitly converting a char to an integer with (int)letter.
+}
+//Or more simply you could have
+int main(void)
+{
+      char letter = get_char("Letter please ");
+      printf("The ascci integer representation of %c is %i\n" , letter , letter );
+	//It is enough that you change the placeholder to an integer to ask c for the ascii numerical representation of the letter by implication.
+}
