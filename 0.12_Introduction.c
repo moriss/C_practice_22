@@ -22,8 +22,9 @@ Casting
 round function  
 debugging
 data types
-arrays 
+arrays (see arrays_1.c)
 Casting
+strings 
 **/
 
 #######
@@ -448,4 +449,15 @@ int main(void)
       char letter = get_char("Letter please ");
       printf("The ascci integer representation of %c is %i\n" , letter , letter );
 	//It is enough that you change the placeholder to an integer to ask c for the ascii numerical representation of the letter by implication.
+}
+
+
+
+//strings
+//strings are just an array of characters.
+int main(void)
+{
+     string s = "hi!";
+     printf("%i %i %c", s[0] ,s[1] ,s[2]);
+	//By implication you are printing integers for the first two chars
 }
