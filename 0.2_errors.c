@@ -1,3 +1,15 @@
+//6th july 23
+//error: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)'
+//Remedy:
+//You need to explicitly declare the string.h library function at the top
+int main(void)
+{
+     string s = "hi!";
+     for (int i = 0; i < strlen(s); i ++)
+
+     printf("%c ", s[i]);
+}
+
 //12th June 23
 //In this error:
 // error: format specifies type 'double' but the argument has type 'int'
