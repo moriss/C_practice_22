@@ -461,3 +461,9 @@ int main(void)
      printf("%i %i %c", s[0] ,s[1] ,s[2]);
 	//By implication you are printing integers for the first two chars
 }
+
+//This also prints out strings using a for loop
+string s = "hi!";
+     for (int i = 0; i < strlen(s); i ++)//strlen comes for <string.h> So you are accessing s's arrays up to the string length of s
+
+     printf("%c ", s[i]);
