@@ -460,10 +460,17 @@ int main(void)
      string s = "hi!";
      printf("%i %i %c", s[0] ,s[1] ,s[2]);
 	//By implication you are printing integers for the first two chars
+	//Were you to print s[3], ie one step beyond the actual chars, it is always a zero. This is the null terminating character.
 }
 
 //This also prints out strings using a for loop
 string s = "hi!";
-     for (int i = 0; i < strlen(s); i ++)//strlen comes for <string.h> So you are accessing s's arrays up to the string length of s
+     for (int i = 0; i < 4; i ++)//strlen comes for <string.h> So you are accessing s's arrays up to the string length of s
+     printf("%c ", s[i]);
+//The same applies here regarding the null terminating character. One step beyond the chars is a zero.
 
+
+//This also prints out strings using a for loop using strlen from string.h
+string s = "hi!";
+     for (int i = 0; i < strlen(s); i ++)//strlen comes for <string.h> So you are accessing s's arrays up to the string length of s
      printf("%c ", s[i]);
