@@ -24,7 +24,8 @@ debugging
 data types
 arrays (see arrays_1.c)
 Casting
-strings 
+strings and the null terminating character
+Using the null terminating character in your code
 **/
 
 #######
@@ -453,7 +454,7 @@ int main(void)
 
 
 
-//strings
+//strings and the null terminating character
 //strings are just an array of characters.
 int main(void)
 {
@@ -474,3 +475,17 @@ string s = "hi!";
 string s = "hi!";
      for (int i = 0; i < strlen(s); i ++)//strlen comes for <string.h> So you are accessing s's arrays up to the string length of s
      printf("%c ", s[i]);
+
+
+
+//Using the null terminating character in your code
+
+char * name = get_string("Name");
+for(int i = 0; strlen(name)!= \0; i ++)
+{
+	printf("%i"/ i);
+}
+
+//Your side note: The tasks ahead are:
+1. To begin using all three loops for each program and try and get them to work. 
+2. Turn everything into your own function.
