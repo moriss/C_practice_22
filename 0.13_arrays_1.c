@@ -11,12 +11,13 @@ int main(void)
       }
       /**The i in the assignments array represents the location of each element in the array depending on where you are in the for loop. 
       In other words, the i in the for loop matches the indexed postion of the array's elements. 
-      So the first i in the for loop points to the first element in the array and so on. 
-      As you loop through each i in the for loop, the i in the array gives you access to the corresponding element in the array. 
+      So the first i in the for loop points to the first element location in the array and so on. 
+      As you loop through each i in the for loop, the i in the array gives you access to the corresponding element location in the array. 
       for loop index 0 corresponds to array[index 0]  , for loop index 1 corrresponds to array[index 1]  and so on...
       The contents of each memory location is just garbage leftover data so it doesn't mean anything. **/
 }
 
+stopped here for revision 
 
 //Assigning incrimenting digits to the 'assignments' array elements.
 int main(void)
