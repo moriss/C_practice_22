@@ -480,12 +480,16 @@ string s = "hi!";
 
 //Using the null terminating character in your code
 
-char * name = get_string("Name");
-for(int i = 0; strlen(name)!= \0; i ++)
-{
-	printf("%i"/ i);
-}
+char * name = get_string("Name ");//Prompt user for a name
+int count=0;//Set a counter to zero
+          for(int i = 0; name[i] !='\0'; i ++)// strlen counts the chars in the string.
+     {
+	     count++;//count increments by one each time above is true
+     }
+          printf("%i ", count);//Print the final count number.
+//
 
-//Your side note: The tasks ahead are:
+/**Your side note: The tasks ahead are:
 1. To begin using all three loops for each program and try and get them to work. 
 2. Turn everything into your own function.
+3. add a library functions file for things like strlen  **/
