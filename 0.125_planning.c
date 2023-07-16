@@ -2,13 +2,16 @@
 and repeated. You can pick up where you left of in the cs50 ide new.c file.
 
 /**
-Contents: Your own function ,  carpet code practice  ,
+Contents: Thinking order for creating your own function ,  
+carpet code practice
+  counting chars 
+  
 **/
-// your own function
+// Thinking order for creating your own function
 //Write code that calls your own function in main and save it into a variable to be used elsewhere.
 /***Task 1.  For counting the number of chars in a string
 In main, start by getting the user input and calling your function (yet to be created) using correct datatype for output
-Now shift down to your own function-writing area and represent the user's input with a placeholder
+Now shift down to your own function-writing area representing the user's input with a placeholder
   Things to consider
     Data type of user's input and expected output of your function. 
     So your first line of code in your own function should be: output data type, name of function, input data type with placeholder
@@ -16,9 +19,9 @@ Now shift down to your own function-writing area and represent the user's input 
     Remember that the placeholder represents the user input so see it as such.
     **/
 
-
-// carpet code practice
-//We can start with counting the lentgh of a users string input. 
+carpet code practice
+// counting chars 
+//We can start with counting the lentgh of a users string input and placing the result in a variable.
 /**
 1. Ask user for a string input.
 2. Do something with that input so in this case...
@@ -29,13 +32,19 @@ Now shift down to your own function-writing area and represent the user's input 
 7. Make sure to try in all loop functions (for, while and do while) 
 Only save the latest below
 **/
-  int main(void)
-{
+  {
      char * name = get_string("Name: ");
-     int add = 0;
-     for(int i = 0; name[i]!= '\0'; i++)
-     {
-          add ++;
-     }
-     printf("%i \n" ,add);
+     int result =  my(name);
+     printf("%i  ", result);
 }
+
+int my(char* x)
+{
+     int add= 0;
+     for(int i = 0; x[i] !='\0'; i++)
+     {
+          add++;
+     }
+     return add++;;
+}
+
