@@ -10,7 +10,8 @@ carpet code practice
 // Thinking order for creating your own function
 //Write code that calls your own function in main and save it into a variable to be used elsewhere.
 /***Task 1.  For counting the number of chars in a string
-In main, start by getting the user input and calling your function (yet to be created) using correct datatype for output
+In main, start by getting the user input and calling your function (yet to be created) using correct datatype for output.
+Also consider if you want to sae the results (return value) of your function into a functioin in main.
 Now shift down to your own function-writing area representing the user's input with a placeholder
   Things to consider
     Data type of user's input and expected output of your function. 
