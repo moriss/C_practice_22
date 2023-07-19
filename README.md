@@ -1,8 +1,8 @@
 19th July 23
 Currenly you are using the files as follows:
-Planning.c is your starting point. Its a file to organise your mind in taking the right approach to planning code for a specific task. It encourages you to try writig code in different ways that procuce the same result. 
+Planning.c is your starting point after making notes in introduction.c. Its a file to organise your mind in taking the right approach to planning code for a specific task. It also encourages you to try writig code in different ways that procuce the same result. 
 Currenly these involve using the three types of loops for, while and do while (which have their own files).
-It's important you save the code into the 'loop' files and copy paste error messages into errors.c with fixes.
+It's important you save the code into the relevant 'loop' file and also copy paste error messages into errors.c (with fixes).
 
 introductions gives  initial info for new items you are learning. They could well brach out into their own file if required. Move to planning.c after making notes in this file to better understand and expand on the item being taught.
 
