@@ -1,0 +1,7 @@
+prototype int s(string s);
+
+headers: 
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
+#include <string.h>
