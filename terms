@@ -5,3 +5,5 @@ headers:
 #include <cs50.h>
 #include <math.h>
 #include <string.h>
+
+A phrase: We call strlen on s  : strlen(s)
