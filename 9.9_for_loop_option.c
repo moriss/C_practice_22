@@ -1,12 +1,20 @@
-
+/****
+Contents:
+Count number of chars in user's string using a for loop
+Converting user's string to all uppercase
+****/
 //Count number of chars in user's string using a for loop
-int my(char*x);
-int main(void)
+int my(char* x)
 {
-     char * name = get_string("Name: ");
-     int a = my(name);
-     printf("%i ", a);
+    int add = 0;
+    for(int i = 0, n=strlen(x); i < n; i++ )
+    {
+        add++;
+    }
+    return add;
 }
+
+
 
 int my(char*x)
 {
@@ -16,4 +24,15 @@ int my(char*x)
           add++;
      }
      return add;
+}
+
+
+
+// Converting user's string to all uppercase
+void my(char* s)
+{
+    for(int i = 0 ,  n=strlen(s) ; i < n ; i ++ )
+    {
+        printf("%i ", toupper(s[i]));
+    }
 }
