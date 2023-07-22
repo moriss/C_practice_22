@@ -1,10 +1,12 @@
 /**This file is for helping your brain to break down the individual tasks of coding which can ultmately be easily recogniesed 
 and repeated. You can pick up where you left of in the cs50 ide new.c file.
 
-/**
-Contents: Thinking order for creating your own function ,  
-carpet code practice
+Contents: 
+/** 
+Contents: Thinking order for creating your own function intro
+carpet code practice for (for,while,do while):
   counting chars 
+  Change chars all to uppercase
   
 **/
 // Thinking order for creating your own function
@@ -48,4 +50,10 @@ int my(char* x)
      }
      return add++;;
 }
+
+
+
+
+Change chars all to uppercase
+//forDONE, while, do while
 
