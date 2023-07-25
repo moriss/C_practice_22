@@ -1,5 +1,6 @@
 /***
   Contents:
+  Change user string to all uppercase wit a while loop
   Count the characters of a user's string input using a while loop
 ***/
 
