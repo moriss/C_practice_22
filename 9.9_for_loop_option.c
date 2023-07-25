@@ -1,8 +1,23 @@
 /****
 Contents:
+Converting user's string to all uppercase using a for loop
 Count number of chars in user's string using a for loop
-Converting user's string to all uppercase
+
 ****/
+
+
+// Converting user's string to all uppercase using a for loop
+void my(char* s)
+{
+    for(int i = 0 ,  n=strlen(s) ; i < n ; i ++ )
+    {
+        printf("%i ", toupper(s[i]));
+    }
+}
+
+
+
+
 //Count number of chars in user's string using a for loop
 int my(char* x)
 {
@@ -28,11 +43,3 @@ int my(char*x)
 
 
 
-// Converting user's string to all uppercase
-void my(char* s)
-{
-    for(int i = 0 ,  n=strlen(s) ; i < n ; i ++ )
-    {
-        printf("%i ", toupper(s[i]));
-    }
-}
