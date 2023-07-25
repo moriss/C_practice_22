@@ -1,7 +1,31 @@
 /**
 Contents:
+Change user string to all uppercase wit a do while loop
 Count the characters of a user's string input using a do while loop
 ***/
+
+//Change user string to all uppercase wit a do while loop
+int main(void)
+{
+    char* name = get_string("Name: ");
+    my(name);
+}
+
+void my(char*x)
+{
+    int i = 0;
+    int capital = strlen(x);
+
+    do
+    {
+        x[i] = toupper(x[i]);
+        printf("%c ", x[i]);
+        i ++;
+    }
+    while (i < capital);
+}
+
+
 
 
 
