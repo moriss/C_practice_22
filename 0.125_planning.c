@@ -1,25 +1,27 @@
-/**This file is for helping your brain to break down the individual tasks of coding which can ultmately be easily recogniesed 
-and repeated. You can pick up where you left of in the cs50 ide new.c file.
+/**Planning and carpet coding
+This file catapults any tasks from description to planning to implementation. Implementatioin requires that tasks are performed in different ways then added to the relevant files. 
+Different ways include using different loops (for the same task) and other approaches to be added as you learn them. 
+
+So we begin with a description, then a mental planning, then writing the code. 
+It is assumed you always write your own function and where possible return a value and save it in a variable to be used later.
 
 Contents: 
 /** 
-Contents: Thinking order for creating your own function intro
-carpet code practice for (for,while,do while):
   counting chars 
   Change chars all to uppercase
   
 **/
-// Thinking order for creating your own function
-//Write code that calls your own function in main and save it into a variable to be used elsewhere.
-/***Task 1.  For counting the number of chars in a string
-In main, start by getting the user input and calling your function (yet to be created) using correct datatype for output.
-Also consider if you want to sae the results (return value) of your function into a functioin in main.
-Now shift down to your own function-writing area representing the user's input with a placeholder
+
+//A guide:
+//In main, start by working out what you need from the user then using this as input to your -yet to be created -function. 
+//Remember to use the correct datatypes and consider if your function will have an output to be saved into a variable.
+//Now shift down to your own function-writing area representing the user's input with a placeholder
   Things to consider
-    Data type of user's input and expected output of your function. 
-    So your first line of code in your own function should be: output data type, name of function, input data type with placeholder
-    Now using the placeholder input of your function, begin writing the detail.
+    //Data type of user's input and expected output of your function. 
+    //So your first line of code in your own function should be: output data type, name of function, input data type with placeholder
+    //Now ,using the placeholder input of your function, begin writing the detail.
     Remember that the placeholder represents the user input so see it as such.
+    //Try different ways to write the code ie for, while and do while loops then save what you think is the best way below.
     **/
 
 carpet code practice
@@ -55,5 +57,17 @@ int my(char* x)
 
 
 Change chars all to uppercase
+//Thinking order for creating this function
+//Planning:Here you are accessing then modifying each array (char in a string)
+//So you are not saving this in a variable as such. You are printing out the result of each modified char
+//
 //forDONE, while, do while
+
+
+
+
+
+
+
+
 
