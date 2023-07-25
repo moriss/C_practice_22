@@ -1,7 +1,6 @@
 Contents: 
 /** Introduction
   A Guide 
-  Change chars all to uppercase
   Counting Chars
   Change chars all to uppercase
 **/
@@ -59,12 +58,8 @@ int my(char* x)
 
 
 
-Change chars all to uppercase
-//Thinking order for creating this function
-//Planning:Here you are accessing then modifying each array (char in a string)
-//So you are not saving this in a variable as such. You are printing out the result of each modified char
-//
-//forDONE, while, do while
+//Change chars all to uppercase
+
 
 
 
