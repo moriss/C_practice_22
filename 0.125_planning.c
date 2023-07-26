@@ -3,6 +3,7 @@ Contents:
   A Guide 
   Counting Chars
   Change chars all to uppercase
+  Test if user's char is already uppercase to keep it like that otherwise change to lowercase
 **/
 
 /**Introduction
@@ -79,11 +80,34 @@ void my(char*x)
     while (i < capital);
 }
 
+/******************************************/
 
 
+//Test if user's char is already uppercase to keep it like that otherwise change to lowercase
 
+int main(void)
+{
+    char* name = get_string("Name: ");
+    my(name);
+}
 
+void my(char*x)
+{
+    int i = 0;
+    int capital = strlen(x);
 
+    do
+    {
+        if(x[i] < 65 ||  x[i]  > 90 )//If the car is not a capital letter
+        {
+            x[i] = x[i] - 32;//Turn it into one by minusing
+        }
+
+        printf("%c ", x[i]);
+        i ++;
+    }
+    while (i < capital);
+}
 
 
 
