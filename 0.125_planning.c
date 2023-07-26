@@ -59,6 +59,25 @@ int my(char* x)
 
 
 //Change chars all to uppercase
+int main(void)
+{
+    char* name = get_string("Name: ");
+    my(name);
+}
+
+void my(char*x)
+{
+    int i = 0;
+    int capital = strlen(x);
+
+    do
+    {
+        x[i] = toupper(x[i]);
+        printf("%c ", x[i]);
+        i ++;
+    }
+    while (i < capital);
+}
 
 
 
