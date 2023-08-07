@@ -26,6 +26,7 @@ arrays (see arrays_1.c)
 Casting
 strings and the null terminating character
 Using the null terminating character in your code
+Comand line prompts
 **/
 
 #######
@@ -493,3 +494,11 @@ int count=0;//Set a counter to zero
 1. To begin using all three loops for each program and try and get them to work. 
 2. Turn everything into your own function.
 3. add a library functions file for things like strlen  **/
+
+
+// Comand line prompts
+int main(int argc , string argv[])//argc counts the strings, argv puts the strings into an array
+{
+	printf("%s %i \n " , argv[1], argc);// Print the second string in the array and total number of strings
+}
+
