@@ -7,3 +7,5 @@ headers:
 #include <string.h>
 
 A phrase: We call strlen on s  : strlen(s)
+
+Error handling: An example is to use an if statement to ensure we can prompt the user if they type something wrong.
