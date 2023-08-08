@@ -59,4 +59,15 @@ int main(int argc , string argv[])//argc counts the strings, argv puts the sttri
 
 }
 
+int main(int argc , string argv[])//argc counts the strings, argv puts the sttrings into an array
+{
+    int i=1;
+    do
+    {
+        printf("%s ", argv[i]);
+        i++;
+    }
+
+    while(i < argc);
+}
 
