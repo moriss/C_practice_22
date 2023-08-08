@@ -501,4 +501,4 @@ int main(int argc , string argv[])//arg means arguments, argc counts the strings
 {
 	printf("%s %i \n " , argv[1], argc);// Print the second string in the array and total number of strings
 }
-
+//More examples of command line user input in the 'comand_line' file.
