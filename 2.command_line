@@ -1,6 +1,22 @@
-Contents : make hello ./hello, rm hello, * cd,cd .. cd ../.., , ls, mkdir, mv, rmdir, ctrl l, clear, code mario.c, other notes, 
+/***
+Contents : 
+make hello
+./hello, 
+rm hello, 
+* cd,
+cd .. cd ../.. 
+, ls, 
+mkdir, 
+mv, 
+rmdir, 
+ctrl l, 
+clear, 
+code mario.c, 
+other notes, 
 vscode specific, (code man.c)
 
+Print out user's command line input
+**/
 Comand line
 Comand line instructions as below are not C. they are comand line instructions for ide interfaces such as in linux.
 Compile and run a program
@@ -32,3 +48,15 @@ a single dot refers to the current directory you are in
 VSCODE specific
 code man.c    Creates a file called man.c
 @@@@@@@@@@@@@@@@@@@@@
+
+// Print out user's command line input
+int main(int argc , string argv[])//argc counts the strings, argv puts the sttrings into an array
+{
+    for (int i = 1 ;  i < argc; i ++)//Set for loop to argc's count.
+    {
+        printf("%s " , argv[i]);//Print argv's arrays after zero. (starting at one)
+    }
+
+}
+
+
