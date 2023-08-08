@@ -497,7 +497,7 @@ int count=0;//Set a counter to zero
 
 
 // Comand line prompts
-int main(int argc , string argv[])//argc counts the strings, argv puts the strings into an array
+int main(int argc , string argv[])//arg means arguments, argc counts the strings, argv puts the strings into an array
 {
 	printf("%s %i \n " , argv[1], argc);// Print the second string in the array and total number of strings
 }
