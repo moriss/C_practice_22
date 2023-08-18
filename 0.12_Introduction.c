@@ -505,6 +505,7 @@ int main(int argc , string argv[])//arg means arguments, argc counts the strings
 //More examples of command line user input in the 'comand_line' file.
 
 
-// Exit Status
-// C automatically (secretly) returns a zero when your code works. 
-//You should return a non zero value if you want to quite out of your program prematurely. Ie when someone did not input the required values. So typically you can return 1
+/**** Exit Status
+C automatically (secretly) returns a zero when your code works. 
+You should return a non zero value if you want to quite out of your program prematurely. Ie when someone did not input the required values. So typically you can return 1 or any other non zero value.
+These are where error codes (exit status's) can be used to identify different errors in a program.  ****/
