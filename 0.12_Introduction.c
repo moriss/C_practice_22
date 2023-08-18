@@ -27,6 +27,7 @@ Casting
 strings and the null terminating character
 Using the null terminating character in your code
 Comand line prompts
+Exit Status
 **/
 
 #######
@@ -502,3 +503,8 @@ int main(int argc , string argv[])//arg means arguments, argc counts the strings
 	printf("%s %i \n " , argv[1], argc);// Print the second string in the array and total number of strings
 }
 //More examples of command line user input in the 'comand_line' file.
+
+
+// Exit Status
+// C automatically (secretly) returns a zero when your code works. 
+//You should return a non zero value if you want to quite out of your program prematurely. Ie when someone did not input the required values. So typically you can return 1
