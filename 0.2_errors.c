@@ -1,3 +1,16 @@
+//26th september 23
+//main can only ever return an int, so below doesn't work becuase you are trying to return a pointer.
+int main()
+{
+   int x = 3;
+   int* ptr = &x;
+  
+  return ptr;
+  
+}
+
+
+
 //6th july 23
 //error: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)'
 //Remedy:
